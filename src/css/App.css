@@ -1,12 +1,11 @@
 :root{
   display: grid;
-  grid-template-columns: 1fr;
   justify-items: center;
 }
 
 .navbar{
   background-color: rgba(0, 0, 0, 0.349);
-  width: 580px;
+  width: 640px;
 }
 
 .links li{
@@ -19,11 +18,27 @@
 .links a{
   color: rgb(255, 255, 255);
   padding-top:50px;
-  padding-left: 50px;
+  padding-left: 70px;
   padding-right:50px;
 }
 
 .links a:hover{
   color: burlywood;
   text-decoration: none;
+}
+
+.profile{
+  text-align: center;
+  width: 100%;
+}
+
+.profilephoto{
+  margin-top: 40px;
+  height:30%;
+  width:30%;
+  border-radius: 50%;
+}
+
+.profilename{
+  margin-top: 30px;
 }
