@@ -5,7 +5,8 @@
 
 .navbar{
   background-color: rgba(0, 0, 0, 0.349);
-  width: 640px;
+  width: 100%;
+  text-align: center;
 }
 
 .links li{
@@ -30,6 +31,7 @@
 .profile{
   text-align: center;
   width: 100%;
+  background-color: rgb(223, 230, 230);
 }
 
 .profilephoto{
@@ -41,4 +43,102 @@
 
 .profilename{
   margin-top: 30px;
+}
+
+.profiledesc{
+  padding-bottom: 30px; 
+}
+
+.profiledesc h6{
+  margin-bottom: 0;
+}
+
+.skills{
+  background-color: rgba(0, 0, 0, 0.349);
+  text-align: center;
+  margin-top: -8px;
+  padding: 20px;
+}
+
+.skills h6{
+  padding: 10px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.projects{
+  text-align: center;
+}
+
+.projects{
+  background-color:  rgb(223, 230, 230);
+  font-size: 18px;
+  padding:20px;
+}
+
+.projects h6{
+  padding:10px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.projectlinks li{
+  list-style: none;
+}
+
+.projectlinks a{
+  color: black;
+}
+
+.projectlinks a:hover{
+  color: darkorange;
+  text-decoration: none;
+}
+
+.blogs{
+  text-align: center;
+  background-color:  rgba(0, 0, 0, 0.349);
+  padding: 20px;
+  font-size: 18px;
+}
+
+.blogs h6{
+  padding:10px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.blogs li{
+  list-style: none;
+}
+
+.blogs a{
+  color: black;
+}
+
+.blogs a:hover{
+  color: darkorange;
+  text-decoration: none;
+}
+
+
+@media(max-width:630px){
+  .navbar{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+
+  .links li{
+    font-size: 15px;
+    float: left;
+    list-style: none;
+    padding-top: 10px;
+    margin-left: auto;
+  }
+  .links a{
+    color: rgb(255, 255, 255);
+    padding:10px 40px;
+  }
 }

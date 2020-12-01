@@ -2,8 +2,9 @@ import "./css/App.css";
 import React from "react";
 import Header from "./components/header";
 import { BrowserRouter,Route } from "react-router-dom";
-import {Home,About,Contact} from "./Pages";
-import Profile from "./components/profile";
+import {Home} from "./Pages/home";
+import {About} from "./Pages/about";
+import {Contact} from "./Pages/contact";
 
 function App() {
   return (
