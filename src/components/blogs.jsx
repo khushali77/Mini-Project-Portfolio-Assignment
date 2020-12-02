@@ -1,3 +1,4 @@
+import React from "react";
 import {BlogList} from "../portfolioData"
 
 export const Blog = (props) =>{
