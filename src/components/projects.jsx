@@ -1,3 +1,4 @@
+import React from "react";
 import {ProjectList} from "../portfolioData"
 
 export const Project = (props) =>{
