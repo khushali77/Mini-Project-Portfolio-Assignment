@@ -1,4 +1,4 @@
-import {ProjectList} from "../Otherdata"
+import {ProjectList} from "../portfolioData"
 
 export const Project = (props) =>{
    return( 

@@ -1,4 +1,4 @@
-import {BlogList} from "../Otherdata"
+import {BlogList} from "../portfolioData"
 
 export const Blog = (props) =>{
    return( 
